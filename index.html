@@ -10,33 +10,36 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class=" bg-purple-950 text-white">
+    <!-- nav section  -->
+
+    <section class=" bg-purple-950 text-white max-w-[1700px] max-h-[75]">
         <nav class="flex justify-between pb-1 ">
             <h3 class="text-5xl pt-3.5 font-bold mb-3"><span class=" ml-52">Tech</span><span class="bg-linear-to-tr from-yellow-300 via-pink-600 to-violet-600 bg-clip-text  font-extrabold text-transparent">Wave</span> </h3>
-            <ul class="flex gap-5 mt-8">
+            <ul class="flex items-center  justify-center gap-6 mt-3 ml-[-50px]">
                 <li>About</li>
                 <li>Episodes</li>
                 <li>Host</li>
             </ul>
-            <button class=" bg-gradient-to-tr from-yellow-500 via-pink-600 to-purple-600 rounded-4xl max-h-6.5 mt-8 mr-52 w-25">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+            <button class=" bg-gradient-to-tr from-yellow-500 via-pink-600 to-purple-600 rounded-4xl max-h-6.5 mt-8 mr-52 w-25 ">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
             
         </nav>
     </section>
+
     <!-- banner section -->
 
-    <section class="bg-[url('/assets/hero-bg.png')] bg-cover ">
-        <div class="">
-            <div class="">
-                 <img src="assets/hero-circle.png" alt="" >
-                 <img src="assets/microphone.png" alt="">
+    <section class="bg-[url('/assets/hero-bg.png')] bg-auto bg-center max-w-[1700px] ">
+        <div class="mx-w-[550px] mx-h-[558px] pt-[177px] pb-32 pl-[525px] pr-[525px]">
+            <div class="relative flex max-w-[350px] max-h[350px] items-center justify-center mx-auto ">
+                 <img src="assets/hero-circle.png" alt="" class="w-full h-full object-contain">
+                 <img src="assets/microphone.png" alt="" class="absolute w-1/2">
             </div>
 
-            <div class="flex flex-col text-center justify-center pb-10">
-                <h3 class="text-6xl font-extrabold text-white">TechWave</h3>
-                <p class="mt-6 text-neutral-600">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div class="" >
-                   <button class=" bg-gradient-to-tr from-yellow-500 via-pink-600 to-purple-600 rounded-4xl max-h-6.5 mt-8 mr-52 w-40"><i class="fa-brands fa-spotify bg-none"></i> Listen on Spotify</button>
-                   <button class="border-2 border-green-400 rounded-4xl w-26" ><i class="fa-regular fa-envelope mt-1 mr-1 ml-1"></i>Subscribe</button>
+            <div class="flex flex-col text-center justify-center pb-10 pt-10">
+                <h3 class="text-6xl font-extrabold text-white pb-2">TechWave</h3>
+                <p class="mt-2 mb-3 text-neutral-400 max-w-full">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="mt-4" >
+                   <button class=" bg-gradient-to-tr from-yellow-500 via-pink-600 to-purple-600 rounded-4xl max-h-6.5 text-blue-50 w-[150px]"><i class="fa-brands fa-spotify bg-none"></i> Listen on Spotify</button>
+                   <button class="border-2 border-green-400 rounded-4xl text-green-600 max-w-[147px] max-h-6.5 w-[100px]" ><i class="fa-regular fa-envelope text-green-600"></i>Subscribe</button>
                 </div>
 
 
@@ -48,7 +51,7 @@
 
     <!-- 3rd section  -->
 
-    <section class=" bg-gray-900">
+    <section class=" bg-[#211038] max-w-[1700px] pl-[200px] pr-[200px] pt-[50px] pb-[120px]">
         <div class="text-center text-white "> 
             <h3 class="text-5xl mb-8 font-bold pt-14">About the Podcast</h3>
             <p class="mt-3 text-neutral-400">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
@@ -59,7 +62,7 @@
         
         <br>
         <br>
-        <hr class="max-w-6xl text-center ml-25 text-white justify-center flex">
+        <hr class="max-w-[13000px] items-center  text-white">
 
         <br>
         <br>
@@ -86,15 +89,17 @@
 
     <!-- 4th section  -->
 
-    <section class="bg-stone-900 pt-20  ">
+    <section class="bg-[#230E3D] pt-20 max-w-[1700px] ">
 
         <h3 class="text-5xl text-gray-300 font-bold text-center">Why Choose TechWave</h3>
 
         <div class="text-neutral-200 grid grid-cols-3 gap-8 pt-30 pb-30 rounded-4xl ml-52 mr-52" >
-            <div class=" row-span-2 bg-purple-950 justify-center items-center rounded-3xl p-10">
-                <img src="assets/headphone.png" alt="" class="pt-2 pl-2 pb-2">
-                <h3 class="font-bold text-2xl pb-2">Premium Audio Quality</h3>
-                <p class="text-neutral-400">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            <div class=" row-span-2 bg-purple-950 justify-center items-center rounded-3xl p-10 ">
+                <div class="pt-16">
+                   <img src="assets/headphone.png" alt="" class="pt-2 pl-2 pb-4">
+                   <h3 class="font-bold text-2xl pb-4">Premium Audio Quality</h3>
+                   <p class="text-neutral-400 max-w-xl">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                </div>
             </div>
             <div class="  col-span-2 bg-purple-950 justify-center items-center  rounded-3xl p-10">
                 <img src="assets/device.png" alt="" class="pt-2 pl-2 pb-2">
@@ -122,7 +127,7 @@
 
     <!-- 5th section  -->
 
-    <section class="pl-52 pr-52 pt-32 pb-32 bg-stone-950">
+    <section class="pl-52 pr-52 pt-32 pb-32 bg-[#1A0B2E] max-w-[1700px]">
         <div>
             <div>
                 <h3 class="text-5xl text-center text-white font-bold pb-10">Featured Episodes</h3>
@@ -131,7 +136,7 @@
 
             <div class="grid grid-cols-3 gap-8">
 
-              <div class="bg-violet-950 p-3 rounded-2xl max-w-80 ">
+              <div class="bg-violet-950 p-3 rounded-2xl max-w-[380px] max-h-[440px] ">
                 <iframe width="264px" height="170px" src="assets/vedios/7308102-hd_1920_1080_24fps.mp4" frameborder="0" class="rounded-3xl"></iframe>
                 <h3 class="font-bold text-2xl pt-6 text-purple-100">The Future of AI in Everyday Life</h3>
                 <p class="pt-3 text-neutral-400">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
@@ -176,6 +181,38 @@
             </div>
         </div>
     </section>
+
+    <footer class="bg-[url('/assets/footer-bg.png')] bg-auto bg-center  max-w-[1700px]  py-32 px-80">
+        <div class="">
+            <div>
+                <h3 class="text-7xl pt-3.5 font-bold mb-3 text-center justify-center"><span class=" text-white">Tech</span><span class="bg-linear-to-tr from-yellow-300 via-pink-600 to-violet-600 bg-clip-text  font-extrabold text-transparent">Wave</span> </h3>
+            </div>
+
+            <div class="grid grid-cols-4 gap-20 text-center justify-center px-[300px] pt-7">
+                 <div class="flex items-center justify-center  gap-1 ">
+                 <img src="assets/youtube-podcast.png" alt="">
+                 <h3 class="text-amber-50">youtube</h3>
+                </div>
+                <div class="flex items-center justify-center  gap-1">
+                  <img src="assets/twitter.png" alt="">
+                  <h3 class="text-amber-50">Twitter</h3>
+                </div>
+                <div class="flex items-center justify-center  gap-1">
+                  <img src="assets/spotify.png" alt="">
+                  <h3 class="text-amber-50">Spotify</h3>
+                </div>
+                 <div class="flex items-center justify-center gap-1">
+                  <img src="assets/apple-podcast.png" alt="">
+                  <h3 class="text-amber-50">Podcasts</h3>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-[#c9c3c3] text-center pt-16"> © 2026 TechWave Podcast .  All rights reserved.</h3>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
